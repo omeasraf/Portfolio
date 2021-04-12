@@ -151,11 +151,18 @@ nav li a:hover {
 .column {
     float: left;
     width: 30%;
+    text-decoration: none;
+    cursor: pointer;
+
 }
 
 .row {
     margin: 0 -5px;
-
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .row:after {
@@ -172,15 +179,6 @@ nav li a:hover {
     }
 }
 
-@media screen and (max-width: 2050px) {
-    .row {
-        max-width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-}
 
 @media screen and (max-width: 1400px) {
     .column {
