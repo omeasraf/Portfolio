@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <script src="assets/js/main.js"></script>
     <title>Ami Asraf</title>
 </head>
 
@@ -15,14 +17,14 @@
         <div class="sidebar">
             <nav>
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
+                    <li><a onclick='scrollToID("about")'>About</a></li>
+                    <li><a onclick="scrollToID('projects')">Projects</a></li>
                     <li><a href="assets/pdfs/Ami Asraf - Resume.pdf" target="_blank">Resume</a></li>
                     <li><a href="https://www.linkedin.com/in/amiasraf/" target="_blank">Contact</a></li>
                 </ul>
             </nav>
         </div>
-        <div class="content">
+        <div class="content" id="about">
             <section class="hero">
                 <img src="assets/images/ome.JPG" alt="A picture of me" class="profileImage">
                 <div class="hero-content">
@@ -33,18 +35,42 @@
                     <a href="https://www.linkedin.com/in/amiasraf/" target="_blank" class="action-btn noselect"><span class="fab fa-github"></span>	&nbsp;LinkedIn</a>
                 </div>
             </section>
-            <section class="hero">
-                <div class="hero-content headerDesc">
+            <section class="headerDesc" id="projects">
                     <h2>PROJECTS</h2>
-                    <!-- <div class="cards">
-                        <div class="card">
-                            <img src="assets/images/connect4.PNG" alt="A screenshot of the game connect4">
-                            <h5>Connect4 Game</h5>
-                            <p>This is a simple Connect4 Game made using Java and JavaFX. This game uses a webserver to parse the data or in this case the wining combo to determine if the user won the game or not.</p>
+                    <div class="row">
+                        <div class="column">
+                          <div class="card" style="background-color: #F55266 !important; color: white;">
+                              <img src="assets/images/connect4.PNG" alt="A screenshot of connect4 game" class="image">
+                            <h3>Connect4</h3>
+                            <p>A simple Connect4 Game made using Java and JavaFX.</p>
+                          </div>
                         </div>
-                    </div> -->
-                    <p>Coming soon...</p>
-                </div>
+                      
+                        <div class="column">
+                          <div class="card" style="background-color: white !important; color: black;">
+                            <img src="assets/images/schedulify.PNG" alt="A screenshot of connect4 game" class="image">
+                            <h3>Schedulify</h3>
+                            <p>A class schedule app written in Swift and SwiftUI.</p>
+                          </div>
+                        </div>
+                        
+                        <div class="column">
+                          <div class="card" style="background-color: #0e1117 !important; color: white;">
+                            <img src="assets/images/muse.PNG" alt="A screenshot of connect4 game" class="image">
+                            <h3>Muse</h3>
+                            <p>A social networking site backend handler, that creates a simple way of authenticating a user.</p>
+                          </div>
+                        </div>
+                        
+                        <div class="column">
+                          <div class="card" style="background-color: #282c35 !important; color: white;">
+                            <img src="assets/images/jule.png" alt="A screenshot of connect4 game" class="image">
+                            <h3>Jule</h3>
+                            <p>A webcrawler that crawls a predefined list of sites to find helpul information and links.</p>
+                          </div>
+                        </div>
+                      </div>
+         
             </section>
         </div>
         <div class="footer">
@@ -60,6 +86,7 @@
         </div>
     </div>
 
+    
 </body>
 
 </html>
