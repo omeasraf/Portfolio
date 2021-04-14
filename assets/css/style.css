@@ -73,13 +73,15 @@ nav li a {
     font-size: 15px;
 }
 
-nav li a:hover {
-    opacity: 1;
-
-    box-shadow: -5px 2px 0px 2px rgb(50 43 50);
 
 
+@media (hover: hover) and (pointer: fine) {
+    nav li a:hover {
+        opacity: 1;
+        box-shadow: -5px 2px 0px 2px rgb(50 43 50);
+    }
 }
+
 
 .hero {
     max-width: 960px;
