@@ -5,6 +5,10 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+  }
+
 :root {
     --stripe-color: #fa6381;
     --monitor-color: #4668fd;
