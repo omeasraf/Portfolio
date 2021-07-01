@@ -5,9 +5,9 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-html{
+html {
     scroll-behavior: smooth;
-  }
+}
 
 :root {
     --stripe-color: #fa6381;
@@ -82,7 +82,10 @@ nav li a {
 @media (hover: hover) and (pointer: fine) {
     nav li a:hover {
         opacity: 1;
-        box-shadow: -5px 2px 0px 2px rgb(50 43 50);
+        box-shadow: -9px 6px 12px 0px rgb(50 43 50);
+        border-radius: 5%;
+        padding: 10px;
+        cursor: grab;
     }
 }
 
