@@ -397,3 +397,9 @@ nav {
         box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
     }
 }
+
+img.image {
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+}
