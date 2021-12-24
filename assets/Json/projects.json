@@ -10,7 +10,7 @@
         "imageDescription": "Shorty Screenshot"
     }, {
         "title": "Artona",
-        "description": "A Safari Extension made for iOS 15. It allows you to customize your favorite websites and\n                                make it your own.",
+        "description": "A Safari Extension made for iOS 15. It allows you to customize your favorite websites and make it your own.",
         "colors": {
             "background": "#171717",
             "border": "white"
@@ -19,7 +19,7 @@
         "imageDescription": "A screenshot of Color options available in Artona"
     }, {
         "title": "Facial Recognition",
-        "description": "FacialRecognition is an app written with Python 3.9 using Tkinter, OpenCV and Face\n                                Recognition modules. It lets you populate facial encoding data from couple of images and\n                                helps you identify anyone who's in the dataset.",
+        "description": "FacialRecognition is an app written with Python 3.9 using Tkinter, OpenCV and Face Recognition modules. It lets you populate facial encoding data from couple of images and helps you identify anyone who's in the dataset.",
         "colors": {
             "background": "#282a35",
             "border": "white"
@@ -64,7 +64,7 @@
         "imageDescription": "A screenshot of Schedulify"
     }, {
         "title": "Muse",
-        "description": "A social networking site backend handler, that creates a simple way of authenticating a\n                                user.",
+        "description": "A social networking site backend handler, that creates a simple way of authenticating a user.",
         "colors": {
             "background": "#0e1117",
             "border": "white"
@@ -82,7 +82,7 @@
         "imageDescription": "A screenshot of Jule Code"
     }, {
         "title": "SubConverter",
-        "description": "A simple subtitle converter, that provides you with an easy to use method call, and can\n                                be adapted for\n                                any platform.",
+        "description": "A simple subtitle converter, that provides you with an easy to use method call, and can be adapted for any platform.",
         "colors": {
             "background": "#0e1117",
             "border": "white"
@@ -91,7 +91,7 @@
         "imageDescription": "A screenshot of SubConverter code"
     }, {
         "title": "FoodApp",
-        "description": "A food delievery app made using Flutter framework. This is just a Ui, and doesn't\n                                actually communicate\n                                with any api yet.",
+        "description": "A food delievery app made using Flutter framework. This is just a Ui, and doesn't actually communicate with any api yet.",
         "colors": {
             "background": "#060504",
             "border": "white"
