@@ -1,0 +1,102 @@
+{
+    "projects": [{
+        "title": "Shorty",
+        "description": "A URL Shortner written with Python 3.9 using Flask and SQLite module. Shorten URLs with ease.",
+        "colors": {
+            "background": "white",
+            "border": "black"
+        },
+        "image": "assets/images/Shorty.png",
+        "imageDescription": "Shorty Screenshot"
+    }, {
+        "title": "Artona",
+        "description": "A Safari Extension made for iOS 15. It allows you to customize your favorite websites and\n                                make it your own.",
+        "colors": {
+            "background": "#171717",
+            "border": "white"
+        },
+        "image": "assets/images/Artona.jpg",
+        "imageDescription": "A screenshot of Color options available in Artona"
+    }, {
+        "title": "Facial Recognition",
+        "description": "FacialRecognition is an app written with Python 3.9 using Tkinter, OpenCV and Face\n                                Recognition modules. It lets you populate facial encoding data from couple of images and\n                                helps you identify anyone who's in the dataset.",
+        "colors": {
+            "background": "#282a35",
+            "border": "white"
+        },
+        "image": "assets/images/facialRecognition.png",
+        "imageDescription": "A screenshot of FacialRecognition UI"
+    }, {
+        "title": "SwiftWidgets",
+        "description": "A Swift package with custom Flutter like widgets for SwiftUI.",
+        "colors": {
+            "background": "#282a35",
+            "border": "white"
+        },
+        "image": "assets/images/SwiftWidgets.png",
+        "imageDescription": "A screenshot of SwiftWidgets"
+    }, {
+        "title": "SFIcons",
+        "description": "A collection of all the SF Symbols into an easy to use swift package.",
+        "colors": {
+            "background": "#282a35",
+            "border": "white"
+        },
+        "image": "assets/images/SFIcons.png",
+        "imageDescription": "A screenshot of SFIcons in use"
+    }, {
+        "title": "Connect4",
+        "description": "A simple Connect4 Game made using Java and JavaFX.",
+        "colors": {
+            "background": "#F55266",
+            "border": "white"
+        },
+        "image": "assets/images/connect4.PNG",
+        "imageDescription": "A screenshot of connect4 game"
+    }, {
+        "title": "Schedulify",
+        "description": "A class schedule app written in Swift and SwiftUI.",
+        "colors": {
+            "background": "white",
+            "border": "black"
+        },
+        "image": "assets/images/schedulify.PNG",
+        "imageDescription": "A screenshot of Schedulify"
+    }, {
+        "title": "Muse",
+        "description": "A social networking site backend handler, that creates a simple way of authenticating a\n                                user.",
+        "colors": {
+            "background": "#0e1117",
+            "border": "white"
+        },
+        "image": "assets/images/muse.png",
+        "imageDescription": "A screenshot of Muse code"
+    }, {
+        "title": "Jule",
+        "description": "A webcrawler that crawls a predefined list of sites to find helpul information and links.",
+        "colors": {
+            "background": "#282c35",
+            "border": "white"
+        },
+        "image": "assets/images/jule.png",
+        "imageDescription": "A screenshot of Jule Code"
+    }, {
+        "title": "SubConverter",
+        "description": "A simple subtitle converter, that provides you with an easy to use method call, and can\n                                be adapted for\n                                any platform.",
+        "colors": {
+            "background": "#0e1117",
+            "border": "white"
+        },
+        "image": "assets/images/subConverter.png",
+        "imageDescription": "A screenshot of SubConverter code"
+    }, {
+        "title": "FoodApp",
+        "description": "A food delievery app made using Flutter framework. This is just a Ui, and doesn't\n                                actually communicate\n                                with any api yet.",
+        "colors": {
+            "background": "#060504",
+            "border": "white"
+        },
+        "image": "assets/images/foodApp.png",
+        "imageDescription": "A screenshot of FoodApp"
+    }]
+}
