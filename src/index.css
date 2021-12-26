@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+  font-family: "Lato", sans-serif;
+  counter-reset: item;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.background {
+  background: rgb(29, 42, 53);
+  background: -moz-linear-gradient(180deg, rgba(29, 42, 53, 1) 0%, rgba(17, 26, 32, 1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(29, 42, 53, 1) 0%, rgba(17, 26, 32, 1) 100%);
+  background: linear-gradient(180deg, rgba(29, 42, 53, 1) 0%, rgba(17, 26, 32, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1d2a35", endColorstr="#111a20", GradientType=1);
+}
+
+.dancing-font {
+  font-family: 'Dancing Script', cursive;
+}
+
+.font-sans {
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
+  font-weight: 400;
+  font-size: clamp(14px), 5vw, 16px;
+}
+
+.big-heading {
+  margin: 0px;
+  font-size: clamp(40px, 8vw, 80px);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px 0px 10px;
+  font-weight: 600;
+  color: #ccd6f6;
+  line-height: 1.1;
+}
+
+
+a.counter-before::before {
+  counter-increment: item;
+  content: "0"counter(item) ".";
+  margin-right: 5px;
+  color: rgb(103 232 249 / var(--tw-text-opacity));
+  font-size: 15px;
+  text-align: right;
+}
