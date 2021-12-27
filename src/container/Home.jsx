@@ -16,10 +16,10 @@ const Home = () => {
             <Navbar />
             <div className='px-4 max-w-4xl mx-auto md:p-10'>
                 <Overview />
-                <section id='about' className='md-[120vh]'>
+                <section id='about' className='h-fit'>
                     <About />
                 </section>
-                <section id='projects'>
+                <section id='projects' className='h-fit'>
                     <Projects />
                 </section>
                 <section id='contact'>

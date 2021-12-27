@@ -32,7 +32,7 @@ const Navbar = () => {
                             <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-2 sm:pr-0">
                                 <Menu as="div" className="ml-3 relative">
                                     <div className="hidden sm:block sm:ml-6">
-                                        <div className="flex space-x-0 sm:soace-x-4">
+                                        <div className="flex space-x-0 sm:space-x-4">
                                             {navigation.map((item) => (
                                                 <AnchorLink
                                                     key={item.name}
@@ -47,7 +47,7 @@ const Navbar = () => {
                                                     {item.name}
                                                 </AnchorLink>
                                             ))}
-                                            <a href='https://omeasraf.com/assets/pdfs/Ome_Asraf_Resume.pdf' target="_blank" className=''>
+                                            <a href='https://omeasraf.com/assets/pdfs/Ome_Asraf_Resume.pdf' target="_blank" rel="noreferrer">
                                                 <button>Resume</button>
                                             </a>
                                         </div>
@@ -63,19 +63,18 @@ const Navbar = () => {
                             {navigation.map((item) => (
                                 <Disclosure.Button
                                     key={item.name}
-                                    as="AnchorLink"
+                                    as="a"
                                     href={item.href}
                                     offset={item.offset}
                                     className={classNames(
                                         'text-gray-300 hover:bg-gray-700 hover:text-cyan-300 counter-before',
                                         'block px-3 py-2 rounded-md text-base font-medium'
                                     )}
-
                                 >
-                                    <p>{item.count}</p> {item.name}
+                                    {item.name}
                                 </Disclosure.Button>
                             ))}
-                            <a href='https://omeasraf.com/assets/pdfs/Ome_Asraf_Resume.pdf' target="_blank" >
+                            <a href='https://omeasraf.com/assets/pdfs/Ome_Asraf_Resume.pdf' target="_blank" rel="noreferrer">
                                 <button className='mt-5 ml-3'>Resume</button>
                             </a>
                         </div>

@@ -69,6 +69,7 @@ h3,
 h4,
 h5,
 h6 {
+
   margin: 0px 0px 10px;
   font-weight: 600;
   color: #ccd6f6;
@@ -154,17 +155,19 @@ button {
   -webkit-animation-name: fadeInUp;
 }
 
-.grid-layout-2 {
-  display: block;
-}
+
 
 @media (max-width: 850px) {
   .bottom-corner.imageTest {
     margin-top: 20px;
     margin-bottom: 40px;
-    margin-left: 5px;
   }
 
+  .grid-layout-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 850px) {
