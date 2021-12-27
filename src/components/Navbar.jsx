@@ -1,10 +1,13 @@
 import { React } from 'react'
 import { Disclosure, Menu } from '@headlessui/react'
-import { SunIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
+import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
+import Icon from './Icon'
 
 const Navbar = () => {
     return (
-        <Disclosure as="nav" className="">
+        <Disclosure as="nav" className="font-mono sticky top-0 z-50 background">
             {({ open }) => (
                 <>
                     <div className="px-2 sm:px-6 lg:px-8">
@@ -21,20 +24,20 @@ const Navbar = () => {
                             </div>
                             <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                                 <div className="flex-shrink-0 flex items-center">
-                                    <SunIcon className="block h-8 w-auto text-white" />
-                                    <h3 className='hidden md:block text-white font-bold ml-3 text-[20px] dancing-font'>Ome Asraf</h3>
+                                    <Icon fill={"cyan"} />
 
                                 </div>
 
                             </div>
-                            <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                            <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-2 sm:pr-0">
                                 <Menu as="div" className="ml-3 relative">
                                     <div className="hidden sm:block sm:ml-6">
-                                        <div className="flex space-x-4">
+                                        <div className="flex space-x-0 sm:soace-x-4">
                                             {navigation.map((item) => (
-                                                <a
+                                                <AnchorLink
                                                     key={item.name}
                                                     href={item.href}
+                                                    offset={item.offset}
                                                     className={classNames(
                                                         'text-gray-300 hover:bg-gray-700 hover:text-cyan-300 counter-before',
                                                         'px-3 py-2 rounded-md text-sm font-medium'
@@ -42,8 +45,11 @@ const Navbar = () => {
 
                                                 >
                                                     {item.name}
-                                                </a>
+                                                </AnchorLink>
                                             ))}
+                                            <a href='https://omeasraf.com/assets/pdfs/Ome_Asraf_Resume.pdf' target="_blank" className=''>
+                                                <button>Resume</button>
+                                            </a>
                                         </div>
                                     </div>
                                 </Menu>
@@ -51,13 +57,15 @@ const Navbar = () => {
                         </div>
                     </div>
 
+                    {/* Mobile */}
                     <Disclosure.Panel className="sm:hidden">
                         <div className="px-2 pt-2 pb-3 space-y-1">
                             {navigation.map((item) => (
                                 <Disclosure.Button
                                     key={item.name}
-                                    as="a"
+                                    as="AnchorLink"
                                     href={item.href}
+                                    offset={item.offset}
                                     className={classNames(
                                         'text-gray-300 hover:bg-gray-700 hover:text-cyan-300 counter-before',
                                         'block px-3 py-2 rounded-md text-base font-medium'
@@ -67,6 +75,9 @@ const Navbar = () => {
                                     <p>{item.count}</p> {item.name}
                                 </Disclosure.Button>
                             ))}
+                            <a href='https://omeasraf.com/assets/pdfs/Ome_Asraf_Resume.pdf' target="_blank" >
+                                <button className='mt-5 ml-3'>Resume</button>
+                            </a>
                         </div>
                     </Disclosure.Panel>
                 </>
@@ -78,10 +89,10 @@ const Navbar = () => {
 export default Navbar
 
 const navigation = [
-    { name: 'About', href: '#about' },
-    { name: 'Experience', href: '#experience' },
-    { name: 'Work', href: '#work' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'About', href: '#about', offset: "130" },
+    // { name: 'Experience', href: '#experience' },
+    { name: 'Projects', href: '#projects', offset: "130" },
+    { name: 'Contact', href: '#contact', offset: "-100" },
 ]
 
 function classNames(...classes) {

@@ -13,6 +13,8 @@ module.exports = {
       600: "600ms",
       700: "700ms",
       800: "800ms",
+      900: "900ms",
+      1000: "1000ms",
     },
     extend: {
       keyframes: {
@@ -38,10 +40,12 @@ module.exports = {
         },
         'fade-in-up': {
           '0%': {
+            visibility: "hidden",
             opacity: '0',
             transform: 'translateY(20px)'
           },
           '100%': {
+            visibility: "visible",
             opacity: '1',
             transform: 'translateY(0)'
           },
@@ -67,6 +71,7 @@ module.exports = {
   },
   variants: {
     animationDelay: ["responsive", "hover"],
+    animation: ["motion-safe"]
   },
   plugins: [
     require("tailwindcss-animation-delay"),
