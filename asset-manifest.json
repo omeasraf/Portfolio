@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f44faf9e.css",
-    "main.js": "/Portfolio/static/js/main.a953969a.js",
-    "index.html": "/Portfolio/index.html",
-    "main.f44faf9e.css.map": "/Portfolio/static/css/main.f44faf9e.css.map",
-    "main.a953969a.js.map": "/Portfolio/static/js/main.a953969a.js.map"
+    "main.css": "https://omeasraf.github.io/Portfolio/static/css/main.f44faf9e.css",
+    "main.js": "https://omeasraf.github.io/Portfolio/static/js/main.941d8d40.js",
+    "index.html": "https://omeasraf.github.io/Portfolio/index.html",
+    "main.f44faf9e.css.map": "https://omeasraf.github.io/Portfolio/static/css/main.f44faf9e.css.map",
+    "main.941d8d40.js.map": "https://omeasraf.github.io/Portfolio/static/js/main.941d8d40.js.map"
   },
   "entrypoints": [
     "static/css/main.f44faf9e.css",
-    "static/js/main.a953969a.js"
+    "static/js/main.941d8d40.js"
   ]
 }
