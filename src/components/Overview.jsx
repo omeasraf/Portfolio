@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { FaLinkedin } from 'react-icons/fa';
+import { FiLinkedin } from 'react-icons/fi';
 
 
 const Overview = () => {
@@ -19,7 +19,7 @@ const Overview = () => {
 
             <div className='max-w-[540px] text-cyan-300 mt-10 animated animatedFadeInUp fadeInUp animation-delay-500'>
                 <a href='https://www.linkedin.com/in/omeasraf/' target="_blank" rel="noreferrer">
-                    <button className='outline outline-offset-2 px-10 py-2 rounded-sm outline-2 flex items-center'><FaLinkedin className='mx-2' />LinkedIn</button>
+                    <button className='outline outline-offset-2 px-10 py-2 rounded-sm outline-2 flex items-center'><FiLinkedin className='mx-2' />LinkedIn</button>
                 </a>
             </div>
         </div >

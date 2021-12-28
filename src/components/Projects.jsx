@@ -24,12 +24,12 @@ const Projects = () => {
                         projects.projects.map((project) => {
 
                             var widget = (
-                                <div className='h-auto w-[85%] sm:w-[250px] rounded-md p-[12px] animated animatedFadeInUp fadeInUp'
+                                <div className='hover:transition-all ease-in-out delay-100 hover:outline outline-cyan-300 h-auto w-[85%] sm:w-[250px] rounded-md p-[12px] animated animatedFadeInUp fadeInUp'
                                     style={
                                         {
                                             backgroundColor: project.colors.background,
                                             boxShadow: " 0 10px 30px -15px rgba(2, 12, 27, 0.7)",
-                                            animationDelay: `${count}ms`
+                                            animationDelay: `${count}ms`,
                                         }
                                     }
                                 >
