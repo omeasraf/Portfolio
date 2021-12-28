@@ -47,7 +47,7 @@ const Navbar = () => {
                                                     {item.name}
                                                 </AnchorLink>
                                             ))}
-                                            <a href='https://omeasraf.com/assets/pdfs/Ome_Asraf_Resume.pdf' target="_blank" rel="noreferrer">
+                                            <a href='https://omeasraf.com/static/pdfs/Ome_Asraf_Resume.pdf' target="_blank" rel="noreferrer">
                                                 <button>Resume</button>
                                             </a>
                                         </div>
@@ -74,7 +74,7 @@ const Navbar = () => {
                                     {item.name}
                                 </Disclosure.Button>
                             ))}
-                            <a href='https://omeasraf.com/assets/pdfs/Ome_Asraf_Resume.pdf' target="_blank" rel="noreferrer">
+                            <a href='https://omeasraf.com/static/pdfs/Ome_Asraf_Resume.pdf' target="_blank" rel="noreferrer">
                                 <button className='mt-5 ml-3'>Resume</button>
                             </a>
                         </div>

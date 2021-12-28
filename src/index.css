@@ -201,7 +201,7 @@ button {
   height: 100%;
   mix-blend-mode: multiply;
   filter: grayscale(100%) contrast(1);
-  background-image: url("https://omeasraf.com/assets/images/ome.JPG");
+  background-image: url("https://omeasraf.com/static/images/ome.JPG");
   border-radius: 4px;
   background-size: cover;
   background-repeat: no-repeat;
