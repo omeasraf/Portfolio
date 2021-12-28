@@ -7,7 +7,7 @@
             "background": "white",
             "border": "black"
         },
-        "image": "assets/images/Shorty.png",
+        "image": "static/images/Shorty.png",
         "imageDescription": "Shorty Screenshot",
         "link": "https://github.com/omeasraf/Shorty"
     }, {
@@ -18,7 +18,7 @@
             "background": "#171717",
             "border": "white"
         },
-        "image": "assets/images/Artona.jpg",
+        "image": "static/images/Artona.jpg",
         "imageDescription": "A screenshot of Color options available in Artona",
         "link": "https://github.com/omeasraf/Artona"
     }, {
@@ -29,7 +29,7 @@
             "background": "#282a35",
             "border": "white"
         },
-        "image": "assets/images/facialRecognition.png",
+        "image": "static/images/facialRecognition.png",
         "imageDescription": "A screenshot of FacialRecognition UI",
         "link": "https://github.com/omeasraf/FacialRecognition"
     }, {
@@ -40,7 +40,7 @@
             "background": "#282a35",
             "border": "white"
         },
-        "image": "assets/images/SwiftWidgets.png",
+        "image": "static/images/SwiftWidgets.png",
         "imageDescription": "A screenshot of SwiftWidgets",
         "link": "https://github.com/omeasraf/SwiftWidgets"
     }, {
@@ -51,7 +51,7 @@
             "background": "#282a35",
             "border": "white"
         },
-        "image": "assets/images/SFIcons.png",
+        "image": "static/images/SFIcons.png",
         "imageDescription": "A screenshot of SFIcons in use",
         "link": "https://github.com/omeasraf/SFIcons"
     }, {
@@ -62,7 +62,7 @@
             "background": "#F55266",
             "border": "white"
         },
-        "image": "assets/images/connect4.PNG",
+        "image": "static/images/connect4.PNG",
         "imageDescription": "A screenshot of connect4 game",
         "link": "https://github.com/omeasraf/Connect4"
     }, {
@@ -73,7 +73,7 @@
             "background": "white",
             "border": "black"
         },
-        "image": "assets/images/schedulify.PNG",
+        "image": "static/images/schedulify.PNG",
         "imageDescription": "A screenshot of Schedulify",
         "link": "https://github.com/omeasraf/Schedulify"
     }, {
@@ -84,7 +84,7 @@
             "background": "#0e1117",
             "border": "white"
         },
-        "image": "assets/images/muse.png",
+        "image": "static/images/muse.png",
         "imageDescription": "A screenshot of Muse code",
         "link": "https://github.com/omeasraf/Muse"
     }, {
@@ -95,7 +95,7 @@
             "background": "#282c35",
             "border": "white"
         },
-        "image": "assets/images/jule.png",
+        "image": "static/images/jule.png",
         "imageDescription": "A screenshot of Jule Code",
         "link": "https://github.com/omeasraf/Jule"
     }, {
@@ -106,7 +106,7 @@
             "background": "#0e1117",
             "border": "white"
         },
-        "image": "assets/images/subConverter.png",
+        "image": "static/images/subConverter.png",
         "imageDescription": "A screenshot of SubConverter code",
         "link": "https://github.com/omeasraf/SubConverter"
     }, {
@@ -117,7 +117,7 @@
             "background": "#060504",
             "border": "white"
         },
-        "image": "assets/images/foodApp.png",
+        "image": "static/images/foodApp.png",
         "imageDescription": "A screenshot of FoodApp",
         "link": "https://github.com/omeasraf/FoodApp"
     }]
