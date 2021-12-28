@@ -8,11 +8,8 @@ const Footer = () => {
                 <div className="py-16 flex flex-col justify-center items-center">
                     <p className="mt-6 text-xs lg:text-sm leading-none text-gray-900 dark:text-gray-50">
                         Fork on
-                        <div>
-
-                        </div>
-                        <a href='https://github.com/omeasraf/Portfolio' target="_blank" rel="noreferrer">
-                            <button className='outline-none px-0 py-0 outline-0 hover:bg-transparent floating-buttton' style={{ paddingTop: "0px", paddingBottom: "0px" }}><FiGithub className='mx-2' />Github</button>
+                        <a href='https://github.com/omeasraf/Portfolio' target="_blank" rel="noreferrer" className='floating-buttton'>
+                            <FiGithub className='mx-2' style={{display: "inline-block"}} />Github
                         </a>
                     </p>
                 </div>

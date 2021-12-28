@@ -24,7 +24,7 @@ const Projects = () => {
                         projects.projects.map((project) => {
 
                             var widget = (
-                                <div className='hover:transition-all ease-in-out delay-100 hover:outline outline-cyan-300 h-auto w-[85%] sm:w-[250px] rounded-md p-[12px] animated animatedFadeInUp fadeInUp'
+                                <div className='hover:transition-all ease-in-out delay-100 hover:outline outline-cyan-300 h-auto w-[85%] sm:w-[250px] hover:rounded-none rounded-md p-[12px] animated animatedFadeInUp fadeInUp'
                                     style={
                                         {
                                             backgroundColor: project.colors.background,
@@ -37,7 +37,7 @@ const Projects = () => {
                                         <div className='h-auto text-center' style={{ color: project.colors.border }}>
                                             <img style={{ borderColor: project.colors.border }} className='border border-solid rounded-md p-[5px] sm:h-[215px] h-[100%] w-[100%]' src={"https://omeasraf.com/" + project.image} alt={project.imageDescription} />
                                             <h3 className='font-mono my-5 text-[1.5em] sm:text-[1.17em]' style={{ color: project.colors.border }}>
-                                                {project.title + " " + count}
+                                                {project.title}
                                             </h3>
                                             <p className='font-mono text-[15px] sm:text-[13px]' >
                                                 {project.description}
